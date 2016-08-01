@@ -1,23 +1,21 @@
-(function() {
-  'use strict';
+// app.js
+var routerApp = angular.module('routerApp', ['ui.router']);
 
-  app.module('routerApp', ['ui.router'])
-    .config(configFunction);
+routerApp.config(function($stateProvider, $urlRouterProvider) {
 
-  configFunction.$inject = ['$stateProvider', '$urlRouterProvider'];
-
-  function configFunction($stateProvider, $urlRouterProvider){
     $urlRouterProvider.otherwise('/home');
 
     $stateProvider
-      .state('home', {
-        url: '/home',
-        templateUrl: 'partial-home.html'
-      })
 
-      .state('about', {
+        // HOME STATES AND NESTED VIEWS ========================================
+        .state('home', {
+            url: '/home',
+            templateUrl: 'partial-home.html'
+        })
 
-      });
-  }
+        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
+        .state('about', {
+            // we'll get to this in a bit
+        });
 
-})();
+});
