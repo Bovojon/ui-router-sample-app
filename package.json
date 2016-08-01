@@ -1,0 +1,19 @@
+{
+  "name": "ui-router-sample-app",
+  "version": "0.1.0",
+  "description": "sample app to test ui-router",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bovojon/ui-router-sample-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bovojon/ui-router-sample-app/issues"
+  },
+  "homepage": "https://github.com/Bovojon/ui-router-sample-app#readme"
+}
