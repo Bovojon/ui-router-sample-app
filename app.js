@@ -24,7 +24,8 @@
       })
       .state('home.paragraph', {                                                  // nested list with just some random string data
           url: '/paragraph',
-          template: ' XMLHttpRequest is an API that provides client functionality for transferring data between a client and a server.'
+          template: '<p class="well">'+'In the AngularJS config function, the child states are built using the $stateProvider and defined as:'+'</br>'
+                        +'<span class="text-primary">'+'$stateProvider.state( "parentState.childState", {stageConfigObject} )'+'</span>'+'</p>'
       });
   }
 
