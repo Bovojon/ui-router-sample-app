@@ -1,5 +1,5 @@
-# ui-router-sample-app
-Here we build a simple AngularJS SPA to learn more about how ui-router works.
+# UI-Router-sample-app
+Here we build a simple AngularJS SPA based on the [tutorial from Scotch.io](https://scotch.io/tutorials/angular-routing-using-ui-router)  to learn more about how ui-router works.
 
 So while testing this application, I ran into a problem with XMLHttpRequest loading the page. The error was:
 > XMLHttpRequest cannot load file:///C:/Users/username/../ui-router-sample-app/partial-home.html. Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https, chrome-extension-resource.
@@ -24,4 +24,4 @@ http-server
 This will start a web server on port 8080.
 
 
-[LIVE EXAMPLE](https://bovojon.github.io/ui-router-sample-app/#/)
+[LIVE EXAMPLE](https://bovojon.github.io/ui-router-sample-app/#/home)
