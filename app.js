@@ -54,18 +54,22 @@
   ScotchController.$inject = ['$scope'];
   function ScotchController($scope) {
     $scope.message = 'test';
-    $scope.scotches = [
+    $scope.means = [
         {
-            name: 'Macallan 12',
-            price: 50
+            name: 'M',
+            abb: 'MongoDB'
         },
         {
-            name: 'Chivas Regal Royal Salute',
-            price: 10000
+            name: 'E',
+            abb: 'Express'
         },
         {
-            name: 'Glenfiddich 1937',
-            price: 20000
+            name: 'A',
+            abb: 'AngularJS'
+        },
+        {
+            name: 'N',
+            abb: 'Node.js'
         }
     ];
 
